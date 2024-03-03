@@ -1,5 +1,5 @@
 # cs465-fullstack
-CS-465 Full Stack Development with MEAN
+<h2>CS-465 Full Stack Development with MEAN</h2>
 Architecture:
 This project utilizes an Express-based customer facing portion of the application and an Angualar Single-Page Application (SPA) administrative facing portion. The Express application serves handlebars template pages using routes, controllers, and views. The Angular SPA serves the entirety of the webpage upon the first load and then renders and executes code in the client's browser. Both portions if the application utilize the app API to serve data to populate the pages of the web application. Additionally, the SPA includes CRUD elements to modify the database to create and update trips. A NoSQL MongoDB database was used since it scales well, includes quick queries, and formats well with JSON.
 Functionality:
